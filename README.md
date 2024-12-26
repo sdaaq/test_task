@@ -8,7 +8,7 @@
 * Скриншоты из веб интерфейса airflow:
 ![Screenshot from 2024-12-26 22-23-24](https://github.com/user-attachments/assets/eb11b9e3-e235-49a7-95ef-a83539c7c341)
 
-* ![Screenshot from 2024-12-26 22-24-14](https://github.com/user-attachments/assets/babfc518-72b2-4a37-ae34-f12cfa2c26b3)
+* ![Screenshot from 2024-12-26 22-23-35](https://github.com/user-attachments/assets/1d854595-6d0f-4bba-9c92-fcfbe3821a1a)
 
 * Скриншот с запуском dbt run:
 * Вывод лога dbt run можно увидеть в выводе логов airflow:
