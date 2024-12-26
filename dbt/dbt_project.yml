@@ -1,0 +1,22 @@
+name: 'currency_exchange_rates'
+version: '1.0.0'
+config-version: 2
+
+profile: 'clickhouse_profile'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  currency_exchange_rates:
+    weekly_avg_rate:
+      materialized: table
+    monthly_avg_rate:
+      materialized: table
