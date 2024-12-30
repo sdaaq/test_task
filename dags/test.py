@@ -59,7 +59,7 @@ def fetch_and_parse_data():
         rates, date_obj = parse_currency_rates(xml_data)
         return rates, date_obj
     except Exception as e:
-        raise AirflowException(f"Error in fetch_and_parse_data: {e}")
+        raise AirflowException(f"Error in parse_data: {e}")
 
 def process_data_for_date():
     context = get_current_context()
