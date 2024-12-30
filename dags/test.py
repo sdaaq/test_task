@@ -54,8 +54,8 @@ def fetch_and_parse_data():
     context = get_current_context()
     start = context["data_interval_start"]
     date_obj = start.date()
+    xml_data = fetch_currency_rates(date_obj)
     try:
-        xml_data = fetch_currency_rates(date_obj)
         rates, date_obj = parse_currency_rates(xml_data)
         return rates, date_obj
     except Exception as e:
