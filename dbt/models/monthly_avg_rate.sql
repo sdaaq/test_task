@@ -1,7 +1,7 @@
 {{
   config(
     materialized='incremental',
-    unique_key=['month', 'from_currency']
+    unique_key='month'
   )
 }}
 
