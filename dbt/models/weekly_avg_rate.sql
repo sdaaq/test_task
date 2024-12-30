@@ -1,7 +1,7 @@
 {{
   config(
     materialized='incremental',
-    unique_key='start_of_week'
+    unique_key=['start_of_week', 'from_currency']
   )
 }}
 
