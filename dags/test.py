@@ -147,7 +147,7 @@ dbt_run_task = DbtRunOperator(
     profiles_dir='/dbt',
     target='dev',
     dag=dag,
-    full_refresh=True,
+    full_refresh=False,
     pool='dbt_pool',
     trigger_rule='all_success',
 )
